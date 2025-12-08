@@ -1,0 +1,168 @@
+/* Paleta de colores */
+:root {
+  --dark-blue: #03045e;
+  --ocean-blue: #0077b6;
+  --bright-cyan: #00b4d8;
+  --light-cyan: #90e0ef;
+  --pale-cyan: #caf0f8;
+}
+
+/* Body and Main Container */
+body.w3-content {
+  max-width: 1300px;
+  background-color: var(--pale-cyan);
+}
+
+/* First Grid: Logo & About */
+.w3-black.w3-container {
+  height: 700px;
+  background-color: var(--dark-blue) !important;
+}
+
+.w3-blue-grey.w3-container {
+  height: 700px;
+  background-color: var(--ocean-blue) !important;
+  color: white;
+}
+
+.w3-blue-grey.w3-container h1,
+.w3-blue-grey.w3-container p {
+  color: white;
+}
+
+/* Second Grid: Work & Resume */
+#work {
+  min-height: 800px;
+  background-color: var(--light-cyan) !important;
+}
+
+#work h2,
+#work p {
+  color: var(--dark-blue);
+}
+
+.w3-indigo.w3-container {
+  min-height: 800px;
+  background-color: var(--bright-cyan) !important;
+  color: white;
+}
+
+.w3-indigo.w3-container h2,
+.w3-indigo.w3-container p {
+  color: white;
+}
+
+/* Image Styling */
+img {
+  width: 100%;
+}
+
+.logo-image {
+  width: 130px;
+}
+
+.profile-image {
+  width: 20%;
+}
+
+/* Buttons */
+.w3-button {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.w3-button:hover {
+  background-color: var(--bright-cyan) !important;
+  color: white;
+}
+
+/* Third Grid: Swing By & Contact */
+.contact-section {
+  height: 700px;
+}
+
+.w3-dark-grey.w3-container {
+  height: 700px;
+  background-color: var(--dark-blue) !important;
+  color: white;
+}
+
+.w3-dark-grey.w3-container h1,
+.w3-dark-grey.w3-container p {
+  color: white;
+}
+
+.w3-teal.w3-container {
+  height: 700px;
+  background-color: var(--ocean-blue) !important;
+  color: white;
+}
+
+/* Form Styling */
+form.w3-container {
+  width: 100%;
+  background-color: var(--pale-cyan) !important;
+}
+
+form.w3-container label {
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+input.w3-input {
+  width: 100%;
+  border: 2px solid var(--ocean-blue);
+  border-radius: 4px;
+}
+
+input.w3-input:focus {
+  outline: none;
+  border-color: var(--bright-cyan);
+  box-shadow: 0 0 5px var(--bright-cyan);
+}
+
+.w3-button.w3-teal {
+  background-color: var(--bright-cyan) !important;
+  color: var(--dark-blue);
+  font-weight: bold;
+}
+
+.w3-button.w3-teal:hover {
+  background-color: var(--ocean-blue) !important;
+  color: white;
+}
+
+/* Footer */
+footer.w3-black {
+  background-color: var(--dark-blue) !important;
+  color: white;
+}
+
+footer.w3-black a {
+  color: var(--bright-cyan);
+}
+
+/* Table Styling */
+table.w3-table {
+  color: var(--dark-blue);
+}
+
+table.w3-table th {
+  background-color: var(--ocean-blue) !important;
+  color: white;
+}
+
+table.w3-table tr:hover {
+  background-color: var(--light-cyan) !important;
+}
+
+/* Responsive */
+@media (max-width: 600px) {
+  .w3-hide-small {
+    display: none;
+  }
+  
+  .w3-hide-medium {
+    display: none;
+  }
+}
